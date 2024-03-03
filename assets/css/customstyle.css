@@ -1,0 +1,227 @@
+.search-container button {
+    float: right;
+    padding: 10px 15px;
+    margin-right: 16px;
+    background-color: #F6F6F6;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+.pacakges-container{
+    position: relative; 
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+  .pacakges-container::before{
+    content: "";
+    background-image: url('../images/pexels-stephan-seeber-1054218.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    opacity: 0.75;
+  }
+  .pricing-card {
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    width: 350px;
+    padding: 30px;
+    text-align: center;
+    position: relative;
+    margin-top: 25px;
+    
+}
+.pricing-card .title {
+    color: #3A4F39;
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0;
+}
+.pricing-card .price {
+    color: #333;
+    font-size: 48px;
+    font-weight: bold;
+    margin: 20px 0;
+}
+.pricing-card .feature {
+    text-align: left;
+    margin: 25px 0;
+    font-size: 16px;
+}
+.pricing-card .feature span {
+    margin-right: 5px;
+}
+.checkmark {
+    color: black;
+}
+.cross {
+    color: black;
+}
+.btn {
+    background-color: #3A4F39;
+    color: white;
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 20px 0;
+    cursor: pointer;
+    border-radius: 4px;
+    width: 100%;
+}
+.contanct-btn {
+    background-color: #3A4F39;
+    color: white;
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 20px 0;
+    cursor: pointer;
+    border-radius: 4px;
+    width: 50%;
+}
+/*Lora section*/
+.card {
+    background: white;
+    border-radius: 10px;
+    padding: 20px;
+    width: 300px; /* Adjust the width as needed */
+    text-align: center;
+    margin-bottom: 30px;
+  }
+
+  .card img {
+    width: 150px; /* Adjust the size as needed */
+    height: 150px;
+    object-fit: cover;
+    margin-top: -75px; /* Half of the image size to offset it into the background */
+  }
+
+  .card h3 {
+    margin: 10px 0;
+  }
+
+  .card p {
+    font-size: 16px;
+    font-weight: 400;
+    color: #333;
+    margin-top: 10px;
+  }
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #fff;
+    padding: 40px;
+    border-radius: 8px;
+    max-width: 600px; /* Adjust based on your layout */
+  }
+
+  .number {
+    font-size: 72px;
+    color: #333;
+    margin-right: 20px; /* Adjust the spacing as per your design */
+  }
+
+  .text-content {
+    flex-grow: 1;
+  }
+
+  .text-content h2 {
+    font-size: 24px;
+    color: #333;
+    margin: 0 0 10px 0;
+  }
+
+  .text-content p {
+    font-size: 16px;
+    color: #666;
+    margin: 0;
+  }
+
+  .text-content button {
+    background-color: #e7e7e7;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+
+  .text-content button:hover {
+    background-color: #d4d4d4;
+  }
+
+  .image-content {
+    margin-left: 5px; /* Adjust the spacing as per your design */
+  }
+
+  .image-content img {
+    border-radius: 8px;
+    height: auto;
+  }
+  .border-radius-5px{
+    border-radius: 5px;
+  }
+
+  .footer {
+    width: 100%;
+    background: #fff;
+    padding: 40px 20px;
+    box-sizing: border-box;
+    border-top: 4px solid #800080; /* Adjust the color to match the image */
+  }
+
+  .footer-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+
+  .footer-section {
+    flex: 1;
+    min-width: 200px;
+    margin: 10px;
+  }
+
+  .footer-section h3 {
+    color: #333;
+    margin-bottom: 20px;
+  }
+
+  .footer-section p, .footer-section ul, .footer-section ul li {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    color: #666;
+    line-height: 1.6;
+  }
+
+  .footer-section ul li {
+    margin-bottom: 10px;
+  }
+
+  .footer-social-icons {
+    display: flex;
+    list-style: none;
+  }
+
+  .footer-social-icons li {
+    margin-right: 10px;
+  }
+.social-media-icon{
+    color: #3A4F39;
+
+}

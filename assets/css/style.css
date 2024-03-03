@@ -1,0 +1,170 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.d-flex{
+    display: flex;
+}
+.justify-between{
+    justify-content: space-between;
+}
+.justify-center{
+    justify-content: center;
+}
+.align-items-center{
+    align-items: center;
+}
+.flex-column{
+    flex-direction: column;
+}
+.p-5{
+padding: 5px;
+}
+.px-2rem{
+    padding: 0rem 2rem;
+}
+.px-1{
+    padding-right: 1rem;
+    padding-left: 1rem;
+}
+.pt-1{
+    padding-top: 1rem;
+}
+.pb-1{
+    padding-bottom: 1rem;
+}
+.h-5rem{
+    height: 5rem;
+}
+.mx-4{
+    margin-right: 4rem;
+    margin-left: 4rem;
+}
+.mx-3{
+    margin-right: 3rem;
+    margin-left: 3rem;
+}
+.mx-1{
+    margin-right: 1rem;
+    margin-left: 1rem;
+}
+.mt-1{
+    margin-top: 1rem;
+}
+.mt-4{
+    margin-top: 4rem;
+}
+.mt-5{
+    margin-top: 5rem;
+}
+.mb-1{
+    margin-bottom: 1rem;
+}
+.mb-2{
+    margin-bottom: 2rem;
+}
+.mb-5{
+    margin-bottom: 5rem;
+}
+.mt-5px{
+    margin-top: 5px;
+}
+.pt-5{
+    padding-top: 5rem;
+}
+.h-100px{
+    height: 100px;
+}
+.h-30px{
+    height: 30px;
+}
+.h-40px{
+    height: 40px;
+}
+.w-50pr{
+    width: 50%;
+}
+.w-40pr{
+    width: 40%;
+}
+.w-60pr{
+    width: 60%;
+}
+.w-300px{
+    width: 300px;
+}
+
+.search{
+    border: none;
+    background-color: #F6F6F6;
+}
+.bg-danger{
+    background-color: red;
+}
+
+  .text.center{
+    text-align: center;
+  }
+
+  .fs-50px{
+    font-size: 50px;
+  }
+  .fs-30px{
+    font-size: 30px;
+  }
+  .fs-18px{
+    font-size: 18px;
+  }
+  .max-width-300{
+    max-width: 300px;
+  }
+  .max-width-150{
+    max-width: 150px;
+  }
+  .max-width-200{
+    max-width: 200px;
+  }
+  .opacity-50{
+    opacity: 50%;
+  }
+  .gx-5{
+    --bs-gutter-x: 3rem;
+    
+  }
+  .row{
+    display: flex;
+    gap: 16px;
+    flex-wrap: wrap;
+  }
+  .row-warp{
+    display: flex;
+    gap: 5px;
+    flex-wrap: wrap;
+  }
+  .col-10{
+    flex: 0 0 auto;
+  width: 86.66666667%;
+  }
+  .col-9{
+    flex: 0 0 auto;
+  width: 76.66666667%;
+  }
+  .col-8{
+    flex: 0 0 auto;
+  width: 66.66666667%;
+  }
+  .col-7{
+    flex: 0 0 auto;
+  width: 56.66666667%;
+  }
+  .m-auto{
+    margin: auto;
+  }
+  .font-weight-bold{
+    font-weight: bold;
+  }
+  .rounded{
+    border-radius: 50%;
+  }
